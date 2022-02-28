@@ -1,5 +1,5 @@
 const clientId = 'f5442b97ea2f4431baad7e0b3d6700fc';
-const redirectUri = 'http://localhost:3000/'
+const redirectUri = 'https://switch2512.github.io/Jamming/'
 
 let accessToken;
 
