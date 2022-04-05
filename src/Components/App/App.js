@@ -21,6 +21,10 @@ class App extends React.Component {
     this.search = this.search.bind(this);
   }
 
+  componentDidMount(){
+    alert("Unfortunately, due to a change Spotify made, only whitelisted accounts can use this react app")
+  }
+
   addTrack(track) {
     let tracks = this.state.playlistTracks;
     if (tracks.find(savedTrack => savedTrack.id === track.id)) {
